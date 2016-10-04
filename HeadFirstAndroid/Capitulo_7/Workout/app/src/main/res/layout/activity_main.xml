@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- O layout da activity_main para celulares so contem o Fragment que possui um ListView -->
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        class="com.hfad.workout.WorkoutListFragment"
+        android:id="@+id/list_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />

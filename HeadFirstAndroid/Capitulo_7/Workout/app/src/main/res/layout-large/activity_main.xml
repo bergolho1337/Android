@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Esse layout sera usado para tablets -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">   <!-- Orientacao horizontal eh muito utilizada para tablets -->
+
+    <fragment
+        class="com.hfad.workout.WorkoutListFragment"
+        android:id="@+id/list_frag"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+
+    <!-- Adiciona o Fragment de detalhes usando um FrameLayout -->
+    <!-- Dessa maneira podemos controlar o conteudo do Fragment de maneira mais facil -->
+    <!-- A ideia eh cada vez que um item eh selecionado no WorkoutListFragment vamos alterar o conteudo do FrameLayout com uma nova instancia de WorkoutDetailFragment -->
+    <!-- Usa Fragment transactions -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Messanger 2</string>
+    <string name="send">Send Message</string>
+    <string name="receive">Receive Message</string>
+    <!-- Titulo do Chooser -->
+    <string name="chooser">Send Message ...</string>
+</resources>

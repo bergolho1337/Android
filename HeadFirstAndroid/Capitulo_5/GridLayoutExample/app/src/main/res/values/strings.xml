@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Grid Layout Example</string>
+    <string name="to">To</string>
+    <string name="email">Enter email adress</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    
+    <string name="textview">Thanks for choosing out awesome blend tea. How do you want it serving?</string>
+    <string name="temperature">Temperature:</string>
+    <string name="hot">Hot</string>
+    <string name="milk">Milk</string>
+    <string name="sugar">Sugar</string>
+    <string name="lemon">Lemon</string>
+</resources>

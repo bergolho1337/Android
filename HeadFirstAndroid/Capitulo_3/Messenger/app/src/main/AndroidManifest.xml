@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.messenger">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- Todas as Activity devem ser declaradas no arquivo AndroidManifest.xml -->
+        <activity android:name=".CreateMessageActivity"
+                  android:label="@string/send" > <!-- Nome que vai aparecer na parte cima da tela da Activity (opcional) -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReceiveMessageActivity"
+                  android:label="@string/receive">
+
+        </activity>
+    </application>
+
+</manifest>
